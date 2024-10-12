@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./number_123_1-512.webp" >
+    <title>JS Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div id="main" class="roboto"></div>
+      <button onclick="proceed('')" class="green">AC</button>
+      <button onclick="proceed('de')" class="green">DE</button>
+      <button onclick="proceed('%')" class="green">%</button>
+      <button onclick="proceed('/')" class="green">/</button><br />
+      <button onclick="proceed('7')">7</button>
+      <button onclick="proceed('8')">8</button>
+      <button onclick="proceed('9')">9</button>
+      <button onclick="proceed('*')" class="green">*</button><br />
+      <button onclick="proceed('4')">4</button>
+      <button onclick="proceed('5')">5</button>
+      <button onclick="proceed('6')">6</button>
+      <button onclick="proceed('-')" class="green">-</button><br />
+      <button onclick="proceed('1')">1</button>
+      <button onclick="proceed('2')">2</button>
+      <button onclick="proceed('3')">3</button>
+      <button onclick="proceed('+')" class="green">+</button><br />
+      <button onclick="proceed('00')">00</button>
+      <button onclick="proceed('0')">0</button>
+      <button onclick="proceed('.')">.</button>
+      <button onclick="proceed('=')" class="orange">=</button>
+    </div>
+  </body>
+  <script src="node.js"></script>
+</html>
